@@ -1,8 +1,10 @@
 
-
+import Smita from './smita'
 function App() {
   return (
-   <h1>smita and react | smita pawar.</h1>
+    <>
+   <h1>smita and react</h1>
+   </>
   );
 }
 

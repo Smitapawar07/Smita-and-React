@@ -1,4 +1,6 @@
-function smita(){
+//import smita from './smita'
+
+function Smita(){
     return(
     
     <>     
@@ -8,4 +10,4 @@ function smita(){
 
     );
 }
-export default App;
+export default Smita;
