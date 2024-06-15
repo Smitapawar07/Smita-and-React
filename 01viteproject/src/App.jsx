@@ -1,6 +1,10 @@
+import Smita from "./smita"
 function App() {
-    return(
-<h1>hiiiii | hi smita</h1>
+    return(<>
+<Smita/>
+<h1>smita and react</h1>
+<p>test para</p>
+</>
     )
 }
 export default App
