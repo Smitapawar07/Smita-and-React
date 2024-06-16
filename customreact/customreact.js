@@ -1,0 +1,1 @@
+const maincon = document.querySelector('root')
