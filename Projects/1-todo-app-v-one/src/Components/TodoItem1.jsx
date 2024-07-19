@@ -1,7 +1,7 @@
-function TodoItem() {
+function TodoItem1() {
  return(
-<div class="container text-center">
-      <div class="row">
+<div class="container">
+      <div class="row kg-row">
         <div class="col-6">
           Buy milk
            </div>
@@ -9,7 +9,7 @@ function TodoItem() {
           4/10/2023
         </div>
         <div class="col-2">
-        <button type="button" class="btn btn-danger">
+        <button type="button" class="btn btn-danger kg-button">
           Delete
           </button>
         </div>
@@ -19,4 +19,4 @@ function TodoItem() {
  );   
 }
 
-export default TodoItem;
+export default TodoItem1;
