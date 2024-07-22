@@ -2,17 +2,17 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 
 function App() {
+  let foodItems =['roti','salad','vegies','milk','dal']
   return (
     <>
+    
       <div>Healthy Food</div>
-      <ul class="list-group">
-        <li class="list-group-item">dal</li>
-        <li class="list-group-item">chaval</li>
-        <li class="list-group-item">sprouts</li>
-        <li class="list-group-item">milk</li>
-        <li class="list-group-item">juice</li>
-        <li class="list-group-item">juice</li>
-     
+      <ul className="list-group">
+      {foodItems.map(item=>
+      <li key={item} class="list-group-item">
+        { item}</li>
+        )}
+        
       </ul>
     </>
   );
