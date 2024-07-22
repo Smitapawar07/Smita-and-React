@@ -1,21 +1,17 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
+import FoodItems from "./components/FoodItems";
+import ErrMsg from "./components/ErrMsg";
 
 function App() {
-  let foodItems =['roti','salad','vegies','milk','dal']
+   
   return (
     <>
-    
-      <div>Healthy Food</div>
-      <ul className="list-group">
-      {foodItems.map(item=>
-      <li key={item} class="list-group-item">
-        { item}</li>
-        )}
-        
-      </ul>
+      <h1>Healthy Food</h1>
+      <ErrMsg />
+      <FoodItems />
     </>
   );
 }
 
-export default App
+export default App;
